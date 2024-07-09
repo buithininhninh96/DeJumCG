@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+	</head>
+	
+	<body>
+	
+		<style>
+			
+			body {
+				margin-left: 15%;
+				margin-right: 15%;
+				margin-top: 10%;
+			}
+			
+			.instruction {
+				color: grey;
+			}
+			
+			.resultheader {
+				text-align: center;
+			}
+			
+		</style>
+				
+		<h3 class="instruction">
+			<i>To dejumble new text, press f5 or refresh browser. </i>
+		</h3>
+		
+		<h1 class="resultheader">Result:</h1>
+		
+		<script>
+		var sentence = prompt("Paste it here.")
+		var sArray = sentence.split("")
+		var newSentence;
+        var i;
+
+		function deJum(){
+			for (i = 0; i < sArray.length; i++){
+				switch (sArray[i]){
+					case "A":
+						sArray[i]="J";
+						break;
+					case "B":
+						sArray[i]="K";
+						break;
+					case "C":
+						sArray[i]="A";
+						break;
+					case "D":
+						sArray[i]="B";
+						break;
+					case "E":
+						sArray[i]="R";
+						break;
+					case "F":
+						sArray[i]="U";
+						break;
+					case "G":
+						sArray[i]="D";
+						break;
+					case "H":
+						sArray[i]="Q";
+						break;
+					case "I":
+						sArray[i]="Z";
+						break;
+					case "J":
+						sArray[i]="C";
+						break;
+					case "K":
+						sArray[i]="T";
+						break;
+					case "L":
+						sArray[i]="H";
+						break;
+					case "M":
+						sArray[i]="F";
+						break;
+					case "N":
+						sArray[i]="V";
+						break;
+					case "O":
+						sArray[i]="L";
+						break;
+					case "P":
+						sArray[i]="I";
+						break;
+					case "Q":
+						sArray[i]="W";
+						break;
+					case "R":
+						sArray[i]="N";
+						break;
+					case "S":
+						sArray[i]="E";
+						break;
+					case "T":
+						sArray[i]="Y";
+						break;
+					case "U":
+						sArray[i]="P";
+						break;
+					case "V":
+						sArray[i]="S";
+						break;
+					case "W":
+						sArray[i]="X";
+						break;
+					case "X":
+						sArray[i]="G";
+						break;
+					case "Y":
+						sArray[i]="O";
+						break;
+					case "Z":
+						sArray[i]="M";
+						break;
+					case "a":
+						sArray[i]="t";
+						break;
+					case "b":
+						sArray[i]="o";
+						break;
+					case "c":
+						sArray[i]="n";
+						break;
+					case "d":
+						sArray[i]="q";
+						break;
+					case "e":
+						sArray[i]="u";
+						break;
+					case "f":
+						sArray[i]="e";
+						break;
+					case "g":
+						sArray[i]="r";
+						break;
+					case "h":
+						sArray[i]="z";
+						break;
+					case "i":
+						sArray[i]="l";
+						break;
+					case "j":
+						sArray[i]="a";
+						break;
+					case "k":
+						sArray[i]="w";
+						break;
+					case "l":
+						sArray[i]="i";
+						break;
+					case "m":
+						sArray[i]="c";
+						break;
+					case "n":
+						sArray[i]="v";
+						break;
+					case "o":
+						sArray[i]="f";
+						break;
+					case "p":
+						sArray[i]="j";
+						break;
+					case "q":
+						sArray[i]="p";
+						break;
+					case "r":
+						sArray[i]="s";
+						break;
+					case "s":
+						sArray[i]="y";
+						break;
+					case "t":
+						sArray[i]="h";
+						break;
+					case "u":
+						sArray[i]="g";
+						break;
+					case "v":
+						sArray[i]="d";
+						break;
+					case "w":
+						sArray[i]="m";
+						break;
+					case "x":
+						sArray[i]="k";
+						break;
+					case "y":
+						sArray[i]="b";
+						break;
+					case "z":
+						sArray[i]="x";
+						break;
+						
+				}
+			}
+
+			newSentence = sArray.join("");
+			
+            var result = document.createElement("new");
+			
+			result.innerText = newSentence;
+			
+			document.body.appendChild(result);
+		}
+
+		deJum(); 
+		</script>
+
+		
+	</body>
+</html>
