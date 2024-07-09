@@ -13,4 +13,4 @@ To load it offline on your computer [on Windows]:
 3. Open saved file directly, and it should open in a browser.
 
 # Update Log:
-Added missing case for de-jumbling the letter “J”. Kudos to GreatefulReader for the notice. May you read all the BLs in peace.
+- Added missing case for de-jumbling the letter “J”. Kudos to GreatefulReader for the notice. May you read all the BLs in peace.
